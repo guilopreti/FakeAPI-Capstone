@@ -96,9 +96,11 @@ Necessita de Autentificação do token.
 
 {
 "title": "Exemplo",
-"text": "Exemplo",
+"text": "Exemplo exemplo exemplo",
 "font": "www.font",
 "data": "Data",
+"theme": "Tema",
+"resume": "Exemplo",
 "image": ["image1", "image2"],
 "userId": 1
 }
@@ -107,9 +109,11 @@ Necessita de Autentificação do token.
 
 {
 "title": "Exemplo",
-"text": "Exemplo",
+"text": "Exemplo exemplo exemplo",
 "font": "www.font",
 "data": "Data",
+"theme": "Tema",
+"resume": "Exemplo",
 "image": [
 "image1",
 "image2"
@@ -133,9 +137,11 @@ Necessita de Autentificação do token.
 
 {
 "title": "Exemplo",
-"text": "Exemplo",
+"text": "Exemplo exemplo exemplo",
 "font": "www.Newfont"
 "data": "NewData",
+"theme": "Tema",
+"resume": "Exemplo",
 "image": [
 "image1",
 "image2"
