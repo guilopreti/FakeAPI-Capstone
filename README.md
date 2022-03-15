@@ -88,7 +88,7 @@ Endpoint para um que um usuário com cadastro feito possa logar em sua conta e a
 
 # /POSTS
 
-Endpoint para gerenciamento dos posts que seram feitos pelos usuários, POST para registrar, GET para buscar, PATCH para alterar
+Endpoint para gerenciamento dos posts que seram feitos pelos usuários, POST para registrar, GET para buscar, PATCH para alterar e DELETE para deletar.
 
 ## Formato POST
 
@@ -151,3 +151,9 @@ Retorna todos os posts registrados
 ## GET /POSTS/ID
 
 Retorna um post
+
+## DELETE /POSTS/ID
+
+Necessita de Autentificação do token
+
+Deleta um post
