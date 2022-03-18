@@ -15,7 +15,8 @@ Endpoint para ser utilizado no gerencimento de usuários, como um POST para cada
 {
 "email": "exemplo@mail.com",
 "password": "exemplo",
-"name": "exemplo"
+"name": "exemplo",
+"lastname": "exemplo"
 },
 
 ## Resposta exemplo
@@ -26,6 +27,7 @@ Endpoint para ser utilizado no gerencimento de usuários, como um POST para cada
 "user": {
 "email": "exemplo@mail.com",
 "name": "exemplo",
+"lastname": "exemplo",
 "id": 1
 }
 }
@@ -46,6 +48,7 @@ Necessita de Autentificação do token.
 "email": "exemplo@mail.com",
 "password": "$2a$10$gOyntRCklbSAErf5fJlSkuughTOL8YAUoN507gV/hHkZgNtbAKAUm",
 "name": "Novo exemplo",
+"lastname": "exemplo",
 "id": 1
 }
 
@@ -82,6 +85,7 @@ Endpoint para um que um usuário com cadastro feito possa logar em sua conta e a
 "user": {
 "email": "exemplo@mail.com",
 "name": "exemplo",
+"lastname": "exemplo",
 "id": 1
 }
 }
@@ -98,11 +102,14 @@ Necessita de Autentificação do token.
 "title": "Exemplo",
 "text": "Exemplo exemplo exemplo",
 "font": "www.font",
-"data": "Data",
 "theme": "Tema",
 "resume": "Exemplo",
-"image": ["image1", "image2"],
-"userId": 1
+"date": "Date",
+"primaryImage": "Image_exemplo.png",
+"secondaryImages": ["Image_exemplo1.png", "Image_exemplo2.png"],
+"votes": [],
+"media": null,
+"userId": id do user (número)
 }
 
 ## Resposta exemplo
@@ -111,13 +118,13 @@ Necessita de Autentificação do token.
 "title": "Exemplo",
 "text": "Exemplo exemplo exemplo",
 "font": "www.font",
-"data": "Data",
 "theme": "Tema",
 "resume": "Exemplo",
-"image": [
-"image1",
-"image2"
-],
+"date": "Date",
+"primaryImage": "Image_exemplo.png",
+"secondaryImages": ["Image_exemplo1.png", "Image_exemplo2.png"],
+"votes": [],
+"media": null,
 "userId": 1,
 "id": 1
 }
@@ -130,7 +137,7 @@ Necessita de Autentificação do token.
 
 {
 "font": ""www.Newfont",
-"data": "NewData"
+"date": "NewDate"
 }
 
 ## Resposta exemplo
@@ -138,14 +145,14 @@ Necessita de Autentificação do token.
 {
 "title": "Exemplo",
 "text": "Exemplo exemplo exemplo",
-"font": "www.Newfont"
-"data": "NewData",
+"font": "www.Newfont",
 "theme": "Tema",
 "resume": "Exemplo",
-"image": [
-"image1",
-"image2"
-],
+"date": "NewDate",
+"primaryImage": "Image_exemplo.png",
+"secondaryImages": ["Image_exemplo1.png", "Image_exemplo2.png"],
+"votes": [],
+"media": null,
 "userId": 1,
 "id": 1,
 }
