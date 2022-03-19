@@ -1,4 +1,16 @@
 {
-  "users": [],
-  "posts": []
+  "users": [
+    {
+      "email": "vilson@mail.com",
+      "password": "$2a$10$Sfpjfun0/ThOYPMIibsoMOnpa/hNszM3pXY/C8i5T/ABA6U9oC4BG",
+      "name": "Vilson Neto",
+      "userName": "VNeto",
+      "biography": "Jornalista amador, buscando aprimorar minhas técnicas de escrita e acumular mais conhecimento sobre os mais variados assuntos.",
+      "img": "https://raw.githubusercontent.com/guilopreti/capstone-m3-grupo-3-vilson/feature/Autenticacao-usuario/src/assets/image/user-padrao.png?token=GHSAT0AAAAAABSQFZ3QBCNPSJPK73NMMATMYRWDNRA",
+      "note": null,
+      "id": 1
+    }
+  ],
+  "posts": [],
+  "saved": []
 }
