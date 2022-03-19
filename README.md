@@ -4,6 +4,12 @@ Esse é o repositório feito para ser usado no desenvolvimento no Capstone do M3
 
 ### URL: https://apifake-capstone-m3.herokuapp.com/
 
+## USUÁRIO JÁ CADASTRADO
+{
+"email": "vilson@mail.com",
+"password": "123456"
+}
+
 ## ENDPOINTS
 
 # /USERS
