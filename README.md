@@ -16,7 +16,7 @@ Endpoint para ser utilizado no gerencimento de usuários, como um POST para cada
 "email": "exemplo@mail.com",
 "password": "exemplo",
 "name": "exemplo exemplo",
-"userName": "exemplo"
+"userName": "exemplo",
 "biography": "Exemplo exemplo.",
 "img": "https://exemplo.com",
 "note": null
