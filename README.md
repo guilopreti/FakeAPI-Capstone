@@ -15,9 +15,12 @@ Endpoint para ser utilizado no gerencimento de usuários, como um POST para cada
 {
 "email": "exemplo@mail.com",
 "password": "exemplo",
-"name": "exemplo",
-"lastname": "exemplo"
-},
+"name": "exemplo exemplo",
+"userName": "exemplo"
+"biography": "Exemplo exemplo.",
+"img": "https://exemplo.com",
+"note": null
+}
 
 ## Resposta exemplo
 
@@ -26,8 +29,11 @@ Endpoint para ser utilizado no gerencimento de usuários, como um POST para cada
 
 "user": {
 "email": "exemplo@mail.com",
-"name": "exemplo",
-"lastname": "exemplo",
+"name": "exemplo exemplo",
+"userName": "exemplo",
+"biography": "Exemplo exemplo.",
+"img": "https://exemplo.com",
+"note": null
 "id": 1
 }
 }
@@ -48,7 +54,10 @@ Necessita de Autentificação do token.
 "email": "exemplo@mail.com",
 "password": "$2a$10$gOyntRCklbSAErf5fJlSkuughTOL8YAUoN507gV/hHkZgNtbAKAUm",
 "name": "Novo exemplo",
-"lastname": "exemplo",
+"userName": "exemplo",
+"biography": "Exemplo exemplo.",
+"img": "https://exemplo.com",
+"note": null
 "id": 1
 }
 
@@ -84,8 +93,11 @@ Endpoint para um que um usuário com cadastro feito possa logar em sua conta e a
 
 "user": {
 "email": "exemplo@mail.com",
-"name": "exemplo",
-"lastname": "exemplo",
+"name": "exemplo exemplo",
+"userName": "exemplo",
+"biography": "Exemplo exemplo.",
+"img": "https://exemplo.com",
+"note": null,
 "id": 1
 }
 }
