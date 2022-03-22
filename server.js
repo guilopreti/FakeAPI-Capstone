@@ -9,7 +9,7 @@ const router = jsonServer.router("db.json");
 app.db = router.db;
 
 const rules = auth.rewriter({
-  users: 644,
+  users: 664,
   posts: 664,
   saved: 600,
 });
