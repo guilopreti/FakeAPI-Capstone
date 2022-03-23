@@ -186,3 +186,56 @@ Retorna um post
 Necessita de Autentificação do token
 
 Deleta um post
+
+# /ACCEPT
+
+Endpoint onde irão os posts para serem aceitos pelo administrador, POST para registrar, GET para buscar e DELETE para deletar.
+
+## Formato POST
+
+Necessita de Autentificação do token.
+
+{
+"title": "Exemplo",
+"text": "Exemplo exemplo exemplo",
+"font": "www.font",
+"theme": "Tema",
+"date": "Date",
+"primaryImage": "Image_exemplo.png",
+"secondaryImages": ["Image_exemplo1.png", "Image_exemplo2.png"],
+"votes": [],
+"media": null,
+"userId": id do user (número)
+}
+
+## Resposta exemplo
+
+{
+"title": "Exemplo",
+"text": "Exemplo exemplo exemplo",
+"font": "www.font",
+"theme": "Tema",
+"date": "Date",
+"primaryImage": "Image_exemplo.png",
+"secondaryImages": ["Image_exemplo1.png", "Image_exemplo2.png"],
+"votes": [],
+"media": null,
+"userId": 1,
+"id": 1
+}
+
+## GET /ACCEPT
+
+Necessita de Autentificação do token.
+
+Retorna todos os posts a serem aceitados
+
+## GET /ACCEPT/ID
+
+Retorna um post a ser aceitado
+
+## DELETE /ACCEPT/ID
+
+Necessita de Autentificação do token
+
+Deleta um post a ser aceitado
