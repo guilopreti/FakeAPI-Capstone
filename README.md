@@ -2,7 +2,7 @@
 
 Esse é o repositório feito para ser usado no desenvolvimento no Capstone do M3, do grupo 3 do facilitador Vilson.
 
-### URL: https://apifake-capstone-m3.herokuapp.com/
+### URL: https://opnion-fakeapi.onrender.com/
 
 ## USUÁRIO JÁ CADASTRADO
 
